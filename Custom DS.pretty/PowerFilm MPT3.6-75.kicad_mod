@@ -1,0 +1,144 @@
+(footprint "PowerFilm MPT3.6-75"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.5 0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6f377059-0461-4add-a3cb-70300cbf538a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PowerFilm MPT3.6-75"
+		(at 3 0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11ade7db-264b-4734-a591-fb0865c93c0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2 0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dc9f9d1-2436-43af-bb5f-91694d651516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 2 0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23764526-f324-40aa-a95a-28942a5a0d77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2 0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28f60ff4-cbb2-4afe-b528-b91bd7858d73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -37.125)
+		(end 0 -34.875)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a95f77a9-f506-429b-bb20-fa96cc7341eb")
+	)
+	(fp_line
+		(start 0 35.25)
+		(end 0 37.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1e883a52-2da7-42e3-a2a8-1062188e5434")
+	)
+	(fp_text user "+"
+		(at 1.5 -30.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "43eeebd2-2160-4f6e-a525-9832ca24e173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 1.5 31.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f65b9284-538f-4109-80f7-002a8c9cf064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.5 0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f578952d-d822-46e1-8da2-ab264ccb6679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -32.75)
+		(size 4 3)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d02c1dc1-3abc-41b4-a36f-c19da603af0a")
+	)
+	(pad "2" thru_hole oval
+		(at 0 32.75)
+		(size 4 3)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a91ef040-6f57-4a58-986d-26580aea2bc5")
+	)
+)
