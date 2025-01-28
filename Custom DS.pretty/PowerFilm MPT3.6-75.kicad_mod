@@ -134,6 +134,22 @@
 		(uuid "d02c1dc1-3abc-41b4-a36f-c19da603af0a")
 	)
 	(pad "2" thru_hole oval
+		(at 0 22)
+		(size 4 3)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "277d65df-b714-4ecf-8e7d-9d284201c5e6")
+	)
+	(pad "2" thru_hole oval
+		(at 0 27.375)
+		(size 4 3)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6576a9c-1c17-4fc6-b987-cc98325cf060")
+	)
+	(pad "2" thru_hole oval
 		(at 0 32.75)
 		(size 4 3)
 		(drill 2.5)
