@@ -1,7 +1,7 @@
 (footprint "Fuse Clip Blade - 3522-2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "3522-2 ")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Fuse Clip Blade - 3522-2"
-		(at 8.5 6 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "99cc2076-cf5f-425e-9b6d-05b346f8ae63")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -202,34 +189,35 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 3.0988 3.0988)
-		(drill 2.5908)
+		(size 3.5 3.5)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "a572074b-99ba-4742-a88a-c6e884678c51")
 	)
 	(pad "2" thru_hole circle
 		(at 5.08 0)
-		(size 3.0988 3.0988)
-		(drill 2.5908)
+		(size 3.5 3.5)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "179d3914-b9e3-4534-92bb-17e8f674e5e4")
 	)
 	(pad "3" thru_hole circle
 		(at 9.144 0)
-		(size 3.0988 3.0988)
-		(drill 2.5908)
+		(size 3.5 3.5)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8179e691-ea73-46a9-a9f0-cd29aa7dcea3")
 	)
 	(pad "4" thru_hole circle
 		(at 14.224 0)
-		(size 3.0988 3.0988)
-		(drill 2.5908)
+		(size 3.5 3.5)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9293b39c-2f3b-42fc-a2ab-89e69cf8a509")
 	)
+	(embedded_fonts no)
 )
